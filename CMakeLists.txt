@@ -1,0 +1,6 @@
+cmake_minimum_required(VERSION 3.10)
+project(deque)
+set(CMAKE_CXX_STANDARD 20)
+if(EXISTS "${CMAKE_CURRENT_SOURCE_DIR}/code.cpp")
+    add_executable(code code.cpp)
+endif()
